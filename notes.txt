@@ -1,0 +1,15 @@
+For my own sanity
+
+Need to figure out a way to inject secrets into the Docker image.
+Currently I run container and set secrets as env variables. Not the best.
+
+Need to make sure the working directory is the /home/blacksmith directory. 
+Creation of an app outside of this directory leads to denied permissions.
+
+This will likely work better as a dev container. Then I can access project details and mount secrets easier.
+
+On this step(unless I want to re-visit dev container): https://developer.atlassian.com/platform/forge/build-a-hello-world-app-in-jira/
+
+forge create
+forge deploy
+forge install
