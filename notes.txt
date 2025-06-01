@@ -15,3 +15,6 @@ forge deploy
 forge install
 
 will need to set env variables via: https://developer.atlassian.com/platform/forge/getting-started/#using-environment-variables-to-login
+
+
+left off here: https://developer.atlassian.com/platform/tool/forge-quest/forge-novice/tutorial-pt2/

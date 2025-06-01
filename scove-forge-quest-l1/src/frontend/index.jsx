@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import ForgeReconciler, { Text } from '@forge/react';
 import { invoke } from '@forge/bridge';
+import ForgeReconciler, { Heading, Text } from '@forge/react';
+
 
 const App = () => {
   const [data, setData] = useState(null);
@@ -11,7 +12,7 @@ const App = () => {
 
   return (
     <>
-      <Text>Hello world!</Text>
+      <Heading size="xlarge">Hello world!</Heading>
       <Text>{data ? data : 'Loading...'}</Text>
     </>
   );
