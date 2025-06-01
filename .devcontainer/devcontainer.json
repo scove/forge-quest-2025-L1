@@ -1,0 +1,8 @@
+{
+    "name": "Forge Quest: Hello World",
+    "build": { "dockerfile": "Dockerfile"},
+    "remoteUser": "node",
+    "mounts" : [
+        "source=${localEnv:HOME}/.ssh,target=/home/node/.ssh,type=bind,consistency=cached"
+    ]
+}
