@@ -13,3 +13,5 @@ On this step(unless I want to re-visit dev container): https://developer.atlassi
 forge create
 forge deploy
 forge install
+
+will need to set env variables via: https://developer.atlassian.com/platform/forge/getting-started/#using-environment-variables-to-login

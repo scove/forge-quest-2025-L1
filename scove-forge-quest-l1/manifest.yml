@@ -1,0 +1,21 @@
+modules:
+  confluence:spacePage:
+    - key: scove-forge-quest-l1-hello-world-space-page
+      resource: main
+      resolver:
+        function: resolver
+      render: native
+      title: scove-forge-quest-l1
+      route: hello-world
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: src/frontend/index.jsx
+app:
+  runtime:
+    name: nodejs22.x
+    memoryMB: 256
+    architecture: arm64
+  id: ari:cloud:ecosystem::app/0c540f1b-923e-4fa4-8532-050c55c4d31b
